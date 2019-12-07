@@ -12,6 +12,7 @@ This plug-in changes the `background` option to `light`/`dark` accordingly.
 
 * macOS 10.14+
 * macVim [Snapshot 160](https://github.com/macvim-dev/macvim/releases/tag/snapshot-160)+
+* A color scheme which supports both light and dark themes, e.g., [NeoSolarized](https://github.com/icymind/NeoSolarized).
 
 ## Installation
 
