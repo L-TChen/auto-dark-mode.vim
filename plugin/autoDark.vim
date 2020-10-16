@@ -14,8 +14,8 @@ if exists('g:AutoDarkLoaded') || &cp
 end
 let g:AutoDarkLoaded = 1
 
-if !exists('##OSAppearanceChanged') || !has("gui_running")
-  echomsg "AutoDark requires MacVim Snapshot 160 or later running in the GUI mode."
+if !exists('##OSAppearanceChanged') && has("gui_running")
+  echomsg "AutoDark requires MacVim Snapshot 160 or later."
   finish
 end
 
